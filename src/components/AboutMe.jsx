@@ -36,17 +36,18 @@ const AboutMe = () => {
               user-friendly experiences.
             </h3>
             <p className="mb-4">
-              I'm experienced in developing websites that are fully responsive
-              to all kinds of devices. I have the ability to write semantic,
-              cross-browser compatible, clean code by hand that is re-useable,
-              maintainable, and easy to understand. The main areas of my
-              expertise are HTML, CSS, Bootstrap, JavaScript , React. I also
-              have intermediate knowledge of Next.js Node.js, Express.js &
-              MongoDB. So if you are looking for a front-end developer for your
-              company, I can be the solution you're looking for. I am very much
-              enthusiastic to show you how my experience and skills meet your
-              needs. You can send email directly from here or contact with me
-              via
+              I possess extensive experience in crafting responsive websites
+              that seamlessly adapt to various devices. My skill set includes
+              the ability to hand-code clean, semantic, cross-browser
+              compatible, and reusable code, prioritizing maintainability and
+              ease of understanding. My primary areas of expertise encompass
+              HTML, CSS, Bootstrap, JavaScript, and React. Furthermore, I
+              possess intermediate-level proficiency in Next.js, Node.js,
+              Express.js, and MongoDB. Should you seek a full-stack developer to
+              join your team, I offer a compelling solution. I am eager to
+              demonstrate how my experience and competencies align with your
+              requirements. You may reach out to me directly via email or use
+              the following contact information
             </p>
             <div className="font-semibold">
               <div className="flex gap-2 items-center">
@@ -63,7 +64,7 @@ const AboutMe = () => {
             <Link to="home" smooth={true}>
               <button className="btn-main mt-2 flex items-center gap-1">
                 Connect With Me
-                <MdOutlineConnectWithoutContact className="hover:animate-bounce"/>
+                <MdOutlineConnectWithoutContact className="hover:animate-bounce" />
               </button>
             </Link>
           </motion.div>

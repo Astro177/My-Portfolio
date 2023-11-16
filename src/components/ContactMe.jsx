@@ -65,21 +65,24 @@ const ContactMe = () => {
               type="text"
               placeholder="Your Name"
               name="name"
+              required
               className="bg-transparent border-b py-3 outline-none w-full focus:border-cyan-500 transition duration-200"
             />
             <input
               type="email"
               placeholder="Your Email"
               name="email"
+              required
               className="bg-transparent border-b py-3 outline-none w-full focus:border-cyan-500 transition-all"
             />
             <textarea
               name="message"
               placeholder="Your Message"
+              required
               className="bg-transparent border-b py-3 outline-none w-full focus:border-cyan-500 transition-all resize-none mb-12"
             ></textarea>
             <button type="submit" className="btn-main flex items-center gap-2">
-              <BsTelegram className="hover:animate-bounce"/>
+              <BsTelegram className="hover:animate-bounce" />
               Send Message
             </button>
           </motion.form>
